@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
+import "./NewCommu.css";
 import NewCommuItem from "../components/Communication/NewCommuItem";
 import { loremIpsum } from "lorem-ipsum";
 import names from "../nameForUsers/names";
@@ -151,23 +152,34 @@ function NewCommu() {
   };
 
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="User name..."
-        onChange={(e) => {
-          setName(e.target.value);
-        }}
-      />
-      <input
-        type="text"
-        placeholder="Make a comment..."
-        onChange={(e) => {
-          setComment(e.target.value);
-        }}
-      />
-      <button onClick={addFriend}>add comment</button>
-      <button onClick={addTonsOfFriends}>add Tons of comments</button>
+    <div className="page">
+      <div className="input-part-0">
+        <h2 className="input-part-1">Leave a comment!</h2>
+        <div className="input-part-1 card">
+          <div className="input-part-2">
+            <input
+              className="input-field"
+              type="text"
+              placeholder="User name..."
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+            />
+            <input
+              className="input-field"
+              type="text"
+              placeholder="Make a comment..."
+              onChange={(e) => {
+                setComment(e.target.value);
+              }}
+            />
+          </div>
+          <div className="input-part-2 comment-btn-part">
+            <button className="add-comment-btn" onClick={addFriend}>add comment</button>
+          </div>
+        </div>
+      </div>
+      
       <NewCommuItem
         listOfFriends={listOfFriends}
         deleteFriend={deleteFriend}
