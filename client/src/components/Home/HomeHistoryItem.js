@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./HomeHistoryItem.css";
 function HomeMintResultItem(props) {
 
   // console.log(props.thisHistory)
@@ -16,32 +17,26 @@ function HomeMintResultItem(props) {
 
   return (
     <div
-      className="HomeMintResultItem"
-      style={{ backgroundColor: mouse ? "pink" : "white" }}
+      className="HomeMintResultItem grid-item card"
+      style={{ backgroundColor: mouse ? "azure" : "white" }}
       onMouseLeave={handleMouse(false)}
       onMouseEnter={handleMouse(true)}
     >
-      <h3>
-        Name: <span>{history.name}</span>
-      </h3>
-      <h3>
-        Number: <span>{history.number}</span>
-      </h3>
-      <h3>
-        MintDate: <span>{history.date}</span>
-      </h3>
-      <button
-        className="btn btn-info"
-        onClick={() => updateMintNameById(history._id)}
-      >
-        Update Name
-      </button>
-      <button
-        className="btn btn-danger"
-        onClick={() => deleteMintById(history._id)}
-      >
-        Delete
-      </button>
+      <div className="history-info-group">
+        <p><span className="bold">Name: </span><span>{history.name}</span></p>
+        <p><span className="bold">Number: </span><span>{history.number}</span></p>
+        <p><span className="bold">MintDate: </span><span>{history.date}</span></p>
+      </div>
+      <div className="history-btn-group">
+        <button
+          className="update-btn history-btn"
+          onClick={() => updateMintNameById(history._id)}
+        >Update</button>
+        <button
+          className="delete-btn history-btn"
+          onClick={() => deleteMintById(history._id)}
+        >X</button>
+      </div>
     </div>
   );
 }

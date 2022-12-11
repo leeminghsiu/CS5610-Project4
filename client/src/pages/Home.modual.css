@@ -1,10 +1,122 @@
-.col-12 {
-  margin-top: 3rem;
-  max-height: 40vh;
+div {
+  /* border: 2px solid black; */
 }
 
-.col-12 .img {
-  height: 40vh;
-  width: 80vh;
-  border-radius: 30%;
+.page{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
+
+.card{
+  background-color: white;
+  box-shadow: 3px 5px 10px rgb(141, 141, 141);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/********************/
+/* INSTRUCTION PART */
+/********************/
+.instruction-part-0 {
+  position: relative;
+  padding: 3rem;
+  padding-top: 2rem;
+}
+
+.instruction-part-1 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.instruction-part-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.instruction-part-3 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+}
+
+/********************/
+/* MINT PART */
+/********************/
+.mint-part-0{
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.mint-part-1{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.mint-btn{
+  width: 30%;
+}
+
+#mint-button{
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #5BACC6;
+  color: white;
+  border: 0;
+  box-shadow: 1px 3px 5px rgb(141, 141, 141);
+  font-weight: bold;
+}
+
+.mint-part-2{
+  position: relative;
+  width: 100%;
+}
+
+.nft-info{
+  text-align: left;
+}
+
+.nft-info-box{
+  border-radius: 10px;
+  box-shadow: inset 3px 5px 5px rgb(166, 166, 166);
+  background-color:#F4F4F4;
+  padding: 1rem;
+}
+
+/********************/
+/* HISTORY PART */
+/********************/
+.history-part{
+  height: fit-content;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: fit-content;
+}
+
+.grid-item{
+  text-align: left;
+  margin: 1rem;
+}
+

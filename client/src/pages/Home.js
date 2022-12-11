@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import "./Home.modual.css";
 import { nanoid } from "nanoid";
 import PropTypes from "prop-types"; // import propTypes from "eslint-plugin-react/lib/rules/prop-types";
-import HomePageImg from "../images/HomePageImg.jpeg";
 // eslint-disable-next-line no-unused-vars
 import HomeMintResult from "../components/Home/HomeMintResult";
 // eslint-disable-next-line no-unused-vars
@@ -23,25 +23,25 @@ function Home() {
   }, []);
 
   // CREATE
-  const mintAlot = async () => {
-    async function fetchPOST_addMint(input_name, input_number, input_date) {
-      let data = new URLSearchParams();
-      data.append("name", input_name);
-      data.append("number", input_number);
-      data.append("date", input_date);
-      await fetch("http://localhost:3001/addMint", {
-        method: "post",
-        body: data
-      }).catch((err) => {
-        console.log(err);
-        console.log("it doesn't worked!");
-      });
-    }
-    for (let i = 0; i < 50; i++) {
-      await fetchPOST_addMint(nameForUsers(), nanoid(), Date());
-      console.log("yeaah");
-    }
-  };
+  // const mintAlot = async () => {
+  //   async function fetchPOST_addMint(input_name, input_number, input_date) {
+  //     let data = new URLSearchParams();
+  //     data.append("name", input_name);
+  //     data.append("number", input_number);
+  //     data.append("date", input_date);
+  //     await fetch("http://localhost:3001/addMint", {
+  //       method: "post",
+  //       body: data
+  //     }).catch((err) => {
+  //       console.log(err);
+  //       console.log("it doesn't worked!");
+  //     });
+  //   }
+  //   for (let i = 0; i < 50; i++) {
+  //     await fetchPOST_addMint(nameForUsers(), nanoid(), Date());
+  //     console.log("yeaah");
+  //   }
+  // };
 
   const mintResult = (number, date, name) => {
     setNumber(number);
@@ -161,74 +161,65 @@ function Home() {
   };
 
   return (
-    <div>
-      <h1>
-        Welcome to NFT-Minter! <br />
-        Instructions:
-      </h1>
-      <div className="row">
-        <div className="col-12">
-          <p>
-            This website/app is designed for people who want to Mint NFT <br />
-            By clicking the mint button below, you can choose to mint 1 to 3
-            NFTs. Its value is initially set to 0.001 ETH. <br />
-            After you have selected it, you can click the "mint for 0.001 ETH"
-            button to connect to your mint Coinbase wallet, <br />
-            Ledger ect... Then you can confirm the purchase and put it in your
-            wallet. If you don't have these wallets, pressing <br />
-            the mint button will also display your unique fakeUsername on the
-            page, as well as your own unique id, and the time <br />
-            you minted the nft. This result will then be added to the history
-            below, and you can modify or delete the history by <br />
-            clicking UpdateName button and Delete button.
-          </p>
-        </div>
-        <div className="col-12">
-          <img
-            style={{
-              height: "100%",
-              width: "100%",
-              objectFit: "contain"
-            }}
-            src={HomePageImg}
-            alt="Nice nft mining website"
-          />
-          {/* Picture from{""}
-          <a href="../images/HomePageImg.jpeg">
-            rd.com
-          </a> */}
-        </div>
+    <div className="page">
+      <div className="topic-part">
+        <h1>Welcome to NFT-Minter!</h1>
+        <p>This website/app is designed for people who want to Mint NFT</p>
+      </div>
 
-        <div className="col-12">
-          <h2>Time is : {date}</h2>
+      <div className="instruction-part-0 card">
+        <h2 className="instruction-part-1">Instruction: </h2>
+        <div className="instruction-part-1">
+          <div className="instruction-part-2">
+            <div className="instruction-part-3">
+              1. Make sure you have installed crypto wallet plug-in on your
+              browser (ex: MetaMask)
+            </div>
+            <div className="instruction-part-3">
+              2. Click the “Mint” button Below, connect to your wallet.
+            </div>
+            <div className="instruction-part-3">
+              3. Choose how many coins you want to mint.
+            </div>
+          </div>
+          <div className="instruction-part-2">
+            <div className="instruction-part-3">
+              4. Confirm the purchase and put it in your wallet.
+            </div>
+            <div className="instruction-part-3">
+              5. We will generate a unique fake Username and the unique id for
+              the NFT below.
+            </div>
+            <div className="instruction-part-3">
+              6. You can modify Username or delete the history by clicking
+              “Update” button and “X” button.
+            </div>
+          </div>
         </div>
+      </div>
 
-        {/* effets happen when onClick mint btn */}
-        <div className="col-12">
-          <button id="mint-button" onClick={addMint}>
+      <div className="mint-part-0 card">
+        <div className="mint-part-1 mint-btn">
+          <button id="mint-button" onClick={addMint} >
             Mint
           </button>
-          <button onClick={mintAlot}>Mint Alot</button>
         </div>
-
-        <div className="col-12">
-          <div>
-            <h2>⇣⇣⇣⇣⇣⇣⇣⇣⇣⇣</h2>
-            <h2>The Mint Result You Got</h2>
-            <h2>⇣⇣⇣⇣⇣⇣⇣⇣⇣⇣</h2>
+        <div className="mint-part-1">
+          <h2 className="mint-part-2 nft-info">Your NFT info:</h2>
+          <div className="mint-part-2 nft-info-box">
+            <div>
+              <p className="nft-info">
+                {" "}
+                You can go to opensea testnet to check your NFTs !!
+              </p>
+            </div>
+            <HomeMintResult name={name} number={number} mintDate={mintDate} />
           </div>
-          <div>
-            <h3> you can go to opensea testnet to check your NFTs !!</h3>
-          </div>
-          <HomeMintResult name={name} number={number} mintDate={mintDate} />
         </div>
+      </div>
 
-        <div>
-          <h2>⇣⇣⇣⇣⇣⇣⇣⇣⇣⇣</h2>
-          <h2>Mint History</h2>
-          <h2>⇣⇣⇣⇣⇣⇣⇣⇣⇣⇣</h2>
-        </div>
-
+      <div className="history-part">
+        <h2>Mint History</h2>
         <div className="col-12">
           <Homehistory
             history={mintHistorys}
