@@ -1,0 +1,23 @@
+  .history-btn-group{
+    display: flex;
+    gap: 1rem;
+    justify-content:right;
+  }
+
+  .update-btn{
+    padding: 0.5rem 1rem;
+    background-color: #E4F7FD;
+    border-radius: 0.5rem;
+    border: 0;
+    box-shadow: 1px 3px 5px rgb(141, 141, 141);
+    font-weight: bold;
+  }
+  
+  .delete-btn{
+    padding: 0.5rem 1rem;
+    background-color: #F4F4F4;
+    border-radius: 0.5rem;
+    border: 0;
+    box-shadow: 1px 3px 5px rgb(141, 141, 141);
+    font-weight: bold;
+  }

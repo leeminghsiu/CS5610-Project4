@@ -1,0 +1,52 @@
+/* div{
+    border: 1px solid black;
+} */
+.input-part-0{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-part-1{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+
+.input-part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    row-gap: 1rem;
+    width: 100%;
+}
+
+.comment-btn-part{
+    width: 40%;
+}
+
+.input-field{
+    height: 3rem;
+}
+
+.add-comment-btn{
+    height: 3rem;
+    width: 100%;
+}
+
+.add-comment-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #5BACC6;
+    color: white;
+    border: 0;
+    box-shadow: 1px 3px 5px rgb(141, 141, 141);
+    font-weight: bold;
+    height: 4rem;
+  }
+
+

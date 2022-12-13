@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 function Homehistory(props) {
   const historys = props.history;
   return (
-    <ul>
+    <div className="grid-container">
       {historys.map((thisHistory) => {
         // console.log(history)
         // return <HomeHistoryItem key= {history.number} number={history.number} mintDate={history.mintDate} />
@@ -20,7 +20,7 @@ function Homehistory(props) {
           />
         );
       })}
-    </ul>
+    </div>
   );
 }
 
