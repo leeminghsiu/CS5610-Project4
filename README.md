@@ -9,7 +9,6 @@ clicking UpdateName button and Delete button. Communication page is designed for
 You can input your comments in the input box below, after type your name and comments, Click "add comment" button will add your comments
 into our databasem, and render in the history area below.
 
-
 ## Project Objective
 A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 
@@ -45,6 +44,8 @@ A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 8. Run ```npm start``` to run client
 9. If the history section does not show any information, wait few minites and refresh the website.(database may need to weakup)
 
+## Usebility study report
+- [Usebility study report](https://docs.google.com/document/d/1avBPzf1-DpNkAKBpkrBQVxmLXN0LzPzV/edit#)
 ## Google Slides
 - [Google Slides](https://docs.google.com/presentation/d/1t6gbXV_PBqIE8VexRVqpFbyhdeIf_644TrK2JaYOXWI/edit#slide=id.g1b7950a4759_0_195)
 
