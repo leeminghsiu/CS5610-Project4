@@ -52,6 +52,10 @@ div {
   text-align: left;
 }
 
+.instruction-part-3 p{
+  width: fit-content;
+}
+
 /********************/
 /* MINT PART */
 /********************/

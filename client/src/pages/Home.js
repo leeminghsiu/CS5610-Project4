@@ -172,27 +172,27 @@ function Home() {
         <div className="instruction-part-1">
           <div className="instruction-part-2">
             <div className="instruction-part-3">
-              1. Make sure you have installed crypto wallet plug-in on your
-              browser (ex: MetaMask)
+              <p>1. Make sure you have installed crypto wallet plug-in on your
+                browser (ex: MetaMask)</p>
             </div>
             <div className="instruction-part-3">
-              2. Click the “Mint” button Below, connect to your wallet.
+              <p>2. Click the “Mint” button Below, connect to your wallet.</p>
             </div>
             <div className="instruction-part-3">
-              3. Choose how many coins you want to mint.
+              <p>3. Choose how many coins you want to mint.</p>
             </div>
           </div>
           <div className="instruction-part-2">
             <div className="instruction-part-3">
-              4. Confirm the purchase and put it in your wallet.
+              <p>4. Confirm the purchase and put it in your wallet.</p>
             </div>
             <div className="instruction-part-3">
-              5. We will generate a unique fake Username and the unique id for
-              the NFT below.
+              <p>5. We will generate a unique fake Username and the unique id for
+              the NFT below.</p>
             </div>
             <div className="instruction-part-3">
-              6. You can modify Username or delete the history by clicking
-              “Update” button and “X” button.
+              <p>6. You can modify Username or delete the history by clicking
+              “Update” button and “X” button.</p>
             </div>
           </div>
         </div>
