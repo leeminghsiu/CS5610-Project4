@@ -43,6 +43,7 @@ A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 6. Run ```cd Project3/client/``` enter the client folder
 7. Run ```npm install``` install moduals
 8. Run ```npm start``` to run client
+9. If the history section does not show any information, wait few minites and refresh the website.(database may need to weakup)
 
 ## Google Slides
 - [Google Slides](https://docs.google.com/presentation/d/1t6gbXV_PBqIE8VexRVqpFbyhdeIf_644TrK2JaYOXWI/edit#slide=id.g1b7950a4759_0_195)
