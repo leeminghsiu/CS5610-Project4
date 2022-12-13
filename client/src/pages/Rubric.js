@@ -91,16 +91,15 @@ function Rubric() {
             id={21}
             msg={"We Defines PropTypes for where we use props"}
           />
-          <RubricAlert id={22} msg={"NO NO NO NO NO!"} />
-          <RubricAlert id={23} msg={"YES! Implement the hierarchy of design"} />
-          <RubricAlert id={24} msg={"YES! Everything properly aligned and spaced"} />
+          <RubricAlert id={22} msg={"YES! Implement the hierarchy of design"} />
+          <RubricAlert id={23} msg={"YES! Everything properly aligned and spaced"} />
+          <RubricAlert id={24} msg={"Yes"} />
           <RubricAlert id={25} msg={"Yes"} />
           <RubricAlert id={26} msg={"Yes"} />
           <RubricAlert id={27} msg={"Yes"} />
-          <RubricAlert id={28} msg={"Yes"} />
-          <RubricAlert id={29} msg={"Not sure yet"} />
-          <RubricAlert id={30} msg={"Yes"} />
-          <RubricAlert id={31} msg={"Hope so"} />
+          <RubricAlert id={28} msg={"Not sure yet"} />
+          <RubricAlert id={29} msg={"Yes"} />
+          <RubricAlert id={30} msg={"Hope so"} />
 
         </div>
       </div>
