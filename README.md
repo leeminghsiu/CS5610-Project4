@@ -43,7 +43,7 @@ If the history section does not show any information, wait few minites and refre
 6. Run ```cd Project3/client/``` enter the client folder
 7. Run ```npm install``` install moduals
 8. Run ```npm start``` to run client
-9. If the history section does not show any information, wait few minites and refresh the website.(database may need to weakup)
+9. If the history section does not show any information, wait few minites and refresh the website.(server may need some time to wakeup)
 
 ## Usebility study report
 - [Usebility study report](https://docs.google.com/document/d/1avBPzf1-DpNkAKBpkrBQVxmLXN0LzPzV/edit#)
