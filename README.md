@@ -14,7 +14,7 @@ into our databasem, and render in the history area below.
 A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 
 ## Deployment URL
-- [FrontEnd](https://main--legendary-boba-b37c10.netlify.app/)
+- [FrontEnd](https://bucolic-profiterole-0c295a.netlify.app/)
 
 ## Screenshots
 ### Over 1000 datas in both Mongo Atlas database collection!
@@ -23,15 +23,15 @@ A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 
 
 ### Home Page
-<img width="864" alt="image" src="https://user-images.githubusercontent.com/89007851/203213551-9f65d8e8-8a48-428e-9324-814ed6d2a619.png">
-<img width="1333" alt="image" src="https://user-images.githubusercontent.com/89007851/203213664-12430c61-1e16-41e1-8720-a35112895301.png">
+<img width="1333" alt="image" src="https://user-images.githubusercontent.com/105685880/207425419-10a959f2-a7bf-4a4c-92c3-506c22418860.png">
+
 
 ### Communcation Page
-<img width="1333" alt="image" src="https://user-images.githubusercontent.com/89007851/203213794-2beaf1bc-d7a2-4d32-9dc8-aeaa0a9b7ba8.png">
+<img width="1350" alt="image" src="https://user-images.githubusercontent.com/105685880/207425858-f07960f0-44c1-486d-9987-ab4aa0cb57da.png">
 
 
 ### Rubric Page
-<img width="1333" alt="image" src="https://user-images.githubusercontent.com/89007851/203213833-ad8e687d-7165-40b4-af1d-878d7aca6723.png">
+<img width="1329" alt="image" src="https://user-images.githubusercontent.com/105685880/207425318-0e610468-f51a-42b4-917b-5fc0b571d9e3.png">
 
 
 ## Instructions to build
@@ -52,8 +52,7 @@ A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 - [Design Document](https://docs.google.com/document/d/1uNK3ECWk8xoj4BodiImZQQQlueagjTNy96eOCNDeHBw/edit)
 
 ## Video
-- [MinghshuLee](https://www.youtube.com/watch?v=vuKLY8rY4-s)
-- [GaoxiangZhang](https://youtu.be/gbM_RVxbr8g)
+- [GaoxiangZhang&MinghsiuLee](https://youtu.be/gbM_RVxbr8g](https://youtu.be/hNJ-1twfiPQ)
 
 ## Authors
 - Minghshu Lee
