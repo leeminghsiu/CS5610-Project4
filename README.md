@@ -45,10 +45,10 @@ A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 8. Run ```npm start``` to run client
 
 ## Google Slides
-- [Google Slides](https://docs.google.com/presentation/d/1pAuQzJmCLsUfqcP1y4kQaer8pVzHRAzPJptdhhgeTzk/edit#slide=id.p)
+- [Google Slides](https://docs.google.com/presentation/d/1t6gbXV_PBqIE8VexRVqpFbyhdeIf_644TrK2JaYOXWI/edit#slide=id.g1b7950a4759_0_195)
 
 ## Design Document
-- [Design Document](https://docs.google.com/document/d/1tqy1tNADoKdp11se8rgJYNIq1UeA40SFCziXdmGF6Cg/edit#)
+- [Design Document](https://docs.google.com/document/d/1uNK3ECWk8xoj4BodiImZQQQlueagjTNy96eOCNDeHBw/edit)
 
 ## Video
 - [MinghshuLee](https://www.youtube.com/watch?v=vuKLY8rY4-s)
@@ -62,5 +62,3 @@ A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 ## Class Link
 https://johnguerra.co/classes/webDevelopment_fall_2022/
 
-## Bouns points!!!
-- We are aiming for the bonus points, so 100%code frozon here from yesterday Nov 21
