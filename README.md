@@ -13,6 +13,7 @@ into our databasem, and render in the history area below.
 A NFT app built with React, Node.js, Express.js, MongoDB, HTML, CSS, Javascript.
 
 ## Deployment URL
+If the history section does not show any information, wait few minites and refresh the website.(database may need to weakup)
 - [FrontEnd](https://bucolic-profiterole-0c295a.netlify.app/)
 
 ## Screenshots
