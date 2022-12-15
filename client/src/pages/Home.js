@@ -117,13 +117,15 @@ function Home() {
       })
         .then((res) => res.text())
         .then((txt) => {
-          console.log(txt);
-          setMintHistorys(
-            mintHistorys.map((val) => {
-              return val._id === id
-                ? { _id: id, name: newName, number: val.number, date: date }
-                : val;
-            })
+          if (txt){
+            console.log(txt);
+            setMintHistorys(
+              mintHistorys.map((val) => {
+                return val._id === id
+                  ? { _id: id, name: newName, number: val.number, date: date }
+                  : val;
+              })
+            }   
           );
         })
         .catch((err) => {
