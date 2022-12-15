@@ -64,3 +64,16 @@ If the history section does not show any information, wait few minites and refre
 ## Class Link
 https://johnguerra.co/classes/webDevelopment_fall_2022/
 
+Code Review by Xingjian Bi
+For your website:
+In general, I like your website design especially your title had header font, it matches the NFT topic so much.
+For the functionalities, it’s good to have a login feature where users can only delete NFT that they created. I don’t want others delete my NFT. 
+It’s great that I can see my NFT after installing some browser extensions, but it’s better to have a redirected link and see the NFT directly. 
+Also the update function for NFT and comment is a little bugged, even I click cancel the content will be null. 
+When I trying to click something on rubric page, it will redirect me to a 404 page.
+
+For your code: 
+Your code did a great job separating the frontend and backend, but it’s kind of confusing why there’s a frontend folder in your back end and have an another index.html there. 
+For your each component’s css files, it’s better to put into a style folder. GitHub sort files by name, and it’s kind of hard to find css files among other js files. 
+I like the way you using props to pass functions in your newCommu components. 
+
