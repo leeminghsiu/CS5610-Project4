@@ -1,0 +1,28 @@
+Very nice project idea, I kinda worked on a similar project for a hackathon to mint NFT so very cool to see other implementation
+
+Here are my comments for the Final project code review
+Good points
+1. The code is well documented with comments so it is easy to understand and read
+2. Props on implementing seperate connection for each db function as suggested by professor
+
+Suggestion for improvement
+1. The js and css files are not properly seperated so the code can be very structured
+2. Alot of unused code that is commented out is still in the file
+3. You could use proxy to avoid writing localhost:xxxx in fetch url
+4. Avoid using cors
+
+Here are my comments on the deployed website
+Good points
+1. Kudos on the changing the design on the website after the usability study
+2. Very nice idea and definitely has potential for furthur scope
+3. Instructions to use the site was displayed at the top, I think that is really helpful as minting NFT can be confusing to people
+4. Adding a rubric page for the TAs and professor to grade was an amazing idea
+
+Improvement points
+1. In the communication, any user can update and delete comment of other users. Maybe it could be a future scope where you link users with the comments so they can update and delete only their comments
+2. I personally feel that NFT or any blockchain technology is associated with high end graphics or dark theme(It is just a personal thought, a usability study you didn't ask for)
+3. In the Rubric page, upon clicking each link and clicking okay in the alert id redirecting me to a non-exisiting page
+4. The page could look beautiful with pagination
+5. Also not sure if the site shows mint history of all the users
+
+Overall, very nice project
